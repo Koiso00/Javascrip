@@ -13,6 +13,9 @@ const sv3 ={
 }
 const sinhvien =[sv1,sv2,sv3]
 
+for (let key=0;key<sinhvien.length;key++){
+    console.log (key , sinhvien[key])}
+
 // console.log (sinhvien)
 // sinhvien.forEach ((value,index)=>{
 //     console.log("index = ",index, "name =",value.username)
