@@ -23,7 +23,21 @@ const person ={
     age :25,
     address :"vietnam"
 }
-for (let key in person){
-    console.log (key,person[key]);
+
+//lay gia tri cung voi key cua no 
+// for (let key in person){
+//     console.log (key,person[key]);
+// }
+
+//lay gia tri va khong lay key 
+for (let value of Object.values(person)){
+    console.log (value)
 }
-for ()
+
+for (let value of Object.entries(person)){
+    console.log (value)
+}
+
+for  (let [key,value]of Object.entries(person)){
+    console.log (key,value)
+}
